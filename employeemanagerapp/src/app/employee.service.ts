@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 import { Employee } from './employee';
 import { environment } from 'src/environments/environment';
 
-@Injectable({providedIn: 'root',}) 
+@Injectable({providedIn: 'root',})
 export class EmployeeService {
   private apiServerUrl = environment.apiBaseUrl;
 
